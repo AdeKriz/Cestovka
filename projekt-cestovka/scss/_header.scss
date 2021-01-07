@@ -1,0 +1,27 @@
+.header {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 2 * $pad;
+    padding-left: $pad;
+}
+
+.logo {
+    grid-column: 1/ span 3;
+}
+
+.menu {
+    grid-column: 4/ span 2;
+    font-family: $headers-font;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+}   
+
+.tabs {
+    color: $primary;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+

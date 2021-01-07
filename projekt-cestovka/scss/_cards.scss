@@ -1,0 +1,37 @@
+.cards {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 20px;
+
+    &--center {
+        text-align: center;
+    }
+}
+
+.card {
+    width: auto;
+    background-color: $light;
+    padding: $pad * 2;
+
+    &__img {
+        height: 40px;
+    }
+
+    &__title{
+        font-family: $headers-font;
+        color: $primary;
+    }
+
+    &--left {
+        text-align: left;
+    }
+
+    &__date {
+        color: $grey;
+    }
+
+    // &__text {
+    // }
+}
+
+

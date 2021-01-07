@@ -1,0 +1,18 @@
+.container {
+    display: grid;
+    grid-auto-rows: auto;
+    row-gap: 40px;
+}
+
+.section {
+    &__title {
+        font-family: $headers-font;
+        color: $primary;
+        margin-top: 0;
+    }
+
+    &__title--color {
+        color: $dark;
+    }
+}
+
